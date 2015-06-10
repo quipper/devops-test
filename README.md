@@ -11,7 +11,7 @@
 
 - Parse 5 log files in `logs` directory and insert it into database.
   - Each log file is gziped and divided by daily
-  - log file format is LTSV
+  - log file format is [LTSV](http://ltsv.org/)
 - Write SQL to get following results
   - Get count of each `uri` per day
   - Get top 10 of `reqtime` per day
