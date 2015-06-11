@@ -1,11 +1,11 @@
-# Quipper Infra Test
+# Quipper DevOps Test
 
 ## Task 1: Programming Test
 
 ### Restriction
 
 - Use at least 1 programming code. You can use any kind of programming languages.
-- Use at least 1 RDBMS database or database which can use SQL-like query, such as Google BigQuery, InfluxDB, etc...
+- Use at least 1 database which can use SQL or SQL-like query, such as PostgreSQL, MySQL, sqlite3, Google BigQuery, InfluxDB, etc...
 
 ### Task
 
