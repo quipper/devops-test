@@ -16,6 +16,16 @@
   - Get count of each `uri` per day
   - Get top 10 of `reqtime` per day
 
+### How to submit
+
+1. Clone this repository. Create new topic branch. Commit all necessary files such as source code.
+2. Create `how-to-run.md` markdown file which includes below information; then commit it.
+  - The name of programming language you use
+  - The name of database software you use
+  - The way how to run the program you create
+3. After all, run `./archive.sh`. This command creates `quipper-devops-test.zip` ZIP file from HEAD revision of current Git branch.
+4. Send ZIP archive file to us as an attachment of email.
+
 ## Task 2: Architecture Discussion
 
 Select one of systems below and design architecture of the system.
