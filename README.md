@@ -1,6 +1,6 @@
 # Quipper DevOps Test
 
-## Task: Programming Test
+## Task 1: Programming Test
 
 ### Restriction
 
@@ -25,3 +25,17 @@
   - The way how to run the program you create
 3. After all, run `./archive.sh`. This command creates `quipper-devops-test.zip` ZIP file from HEAD revision of current Git branch.
 4. Send ZIP archive file to us as an attachment of email.
+
+## Task 2: Architecture Discussion
+
+Make a presentation about an architecture of the system below.
+You can use any software, cloud services and protocols.
+In the presentation, you can bring in documents or write it on whiteboard there.
+
+### Asynchronous Job System
+
+- We want to create asynchronous job system for our many web applications
+  - such as encode video, create thumbnails
+- We want to retry 5 times when asynchronous job is failed
+- If asynchronous job failed 5 times, notify to our system admin
+- After job finished, even if it's failed, notify the result to users
