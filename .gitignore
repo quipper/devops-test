@@ -1,2 +1,4 @@
 quipper-devops-test.zip
 .ruby-version
+logs/access.log
+dummer.pid
