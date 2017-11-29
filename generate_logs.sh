@@ -19,7 +19,7 @@ generate_log_file() {
   echo "Generated $(cat logs/access.log | wc -l) lines"
 
   echo "Sort logs..."
-  cat logs/access.log | sort > logs/access-${date}.log
+  cat logs/access.log | sort | uniq > logs/access-${date}.log
 
   echo "Archive log file"
   gzip logs/access-${date}.log
@@ -29,8 +29,8 @@ generate_log_file() {
 }
 
 trap 'exit_code=$?; bundle exec dummer stop; exit $exit_code' EXIT
-generate_log_file 20171001 10
-generate_log_file 20171002 20
-generate_log_file 20171003 40
-generate_log_file 20171004 80
-generate_log_file 20171005 160
+generate_log_file 20171101 5
+generate_log_file 20171102 10
+generate_log_file 20171103 20
+generate_log_file 20171104 40
+generate_log_file 20171105 80
