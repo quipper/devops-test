@@ -6,6 +6,7 @@
 
 - Use at least 1 programming code. You can use any kind of programming languages.
 - Use at least 1 database which can use SQL or SQL-like query, such as PostgreSQL, MySQL, sqlite3, Google BigQuery, InfluxDB, etc...
+- Consider the real-world problems you think (e.g. performance, maintainability)
 
 ### Task details
 
@@ -23,6 +24,7 @@
   - The name of programming language you use
   - The name of database software you use
   - The way how to run the program you create
+  - What aspects you considered (or compromised) about
 3. After all, run `./archive.sh`. This command creates `quipper-devops-test.zip` ZIP file from HEAD revision of current Git branch.
 4. Send ZIP archive file to us as an attachment of email.
 
