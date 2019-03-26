@@ -10,6 +10,9 @@
   - 例: PostgreSQL, MySQL, sqlite3, Google BigQuery, InfluxDB など
 - あなたが思う現実世界の問題について考慮してください
   - 例: パフォーマンス, メンテナンス性等
+- Docker または docker-compose によるセットアップ手順・実行手順を用意し、提出物に明記してください。
+  - レビュアーは通常 Docker for Mac を用いて実行します。
+  - その環境で正常に動作しない場合、確認させてもらう場合があります。
 
 ### 課題内容
 

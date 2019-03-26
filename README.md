@@ -7,6 +7,9 @@
 - Use at least 1 programming code. You can use any kind of programming languages.
 - Use at least 1 database which can use SQL or SQL-like query, such as PostgreSQL, MySQL, sqlite3, Google BigQuery, InfluxDB, etc...
 - Take in real-world problems into consideration (e.g. performance, maintainability)
+- Prepare instructions for setup and running using Docker or docker-compose and include it in the submission.
+  - Basically, reviewers run the submission using Docker for Mac.
+  - When it didn't run properly, we may ask you back.
 
 ### Task details
 
