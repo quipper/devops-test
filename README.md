@@ -36,6 +36,7 @@
 Make a presentation about an architecture of the system below.
 You can use any software, cloud services and protocols.
 In the presentation, you can bring in documents or write it on whiteboard there.
+No need to submit the document in advance.
 
 ### Asynchronous Job System
 
