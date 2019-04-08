@@ -18,7 +18,6 @@
   - log file format is LTSV
 - Write SQL to get following results
   - Get count of each `uri` per day
-  - Get top 10 of `reqtime` per day
 
 ### How to submit
 
