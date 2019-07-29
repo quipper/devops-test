@@ -8,7 +8,7 @@
 - Use at least 1 database which can use SQL or SQL-like query, such as PostgreSQL, MySQL, sqlite3, InfluxDB, etc...
 - Take in real-world problems into consideration (e.g. performance, maintainability)
 - Prepare instructions for setup and running using Docker or docker-compose and include it in the submission.
-  - Make sure your programming language and database run on Docker. This is for the reviewer to easily test.
+  - Make sure your programming language and database run on Docker. This is for reviewers to test easily.
   - Basically, reviewers run the submission using Docker for Mac.
   - When it didn't run properly, we may ask you back.
 
