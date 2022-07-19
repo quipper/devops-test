@@ -35,8 +35,8 @@
 
 Make a presentation about an architecture of the system below.
 You can use any software, cloud services and protocols.
-In the presentation, you can bring in documents or write it on whiteboard there.
-No need to submit the document in advance.
+Please prepare a document to explain and share the url of the document with the interviewer on the day of the interview. 
+No need to submit the document in advance. The interview will be conducted online.
 
 ### Asynchronous Job System
 
