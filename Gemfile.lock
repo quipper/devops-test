@@ -17,7 +17,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  dummer
+  dummer (= 0.4.0)
 
 BUNDLED WITH
    1.15.4

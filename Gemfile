@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-gem 'dummer'
+gem 'dummer', '0.4.0'
